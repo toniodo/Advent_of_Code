@@ -1,0 +1,5 @@
+Bienvenue dans le fichier de test:
+
+Ceci est la ligne 3.
+
+Bonne chance !
