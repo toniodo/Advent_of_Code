@@ -93,7 +93,7 @@ def part_2(lines: List[str]) -> None:
 
 
 # Run part 1
-part_1(l)
+part_1(l) #53334
 
 # Run part 2
-part_2(l)
+part_2(l) #52834
