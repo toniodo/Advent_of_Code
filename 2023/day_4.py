@@ -4,7 +4,7 @@ from utils.file import list_lines
 
 
 def part_1(lines: List[List[List[int]]]):
-    """Print the solution of part 1"""
+    """Prints the solution of part 1"""
     sum_points = 0
     for games in lines:
         winning_numbers = games[0]
@@ -20,7 +20,7 @@ def part_1(lines: List[List[List[int]]]):
     print(f"The sum of all the points is {sum_points}")
 
 def part_2(lines: List[List[List[int]]]):
-    """Print the solution of part 2"""
+    """Prints the solution of part 2"""
     max_card = len(lines)
     scratchcards = [1]*max_card
     for i, games in enumerate(lines):

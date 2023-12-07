@@ -77,14 +77,14 @@ with open("inputs/day_2.txt", 'r', encoding="utf-8") as f:
 
 
 def part_1(lines: List[str]) -> None:
-    """Solve part 1"""
+    """Solves part 1"""
     all_game_set: List[GameSet] = [GameSet(line) for line in lines]
     current_game = GameColor(all_game_set, 12, 13, 14)
     print(f"The total sum of all the games is : {current_game.sum_games}")
 
 
 def part_2(lines: List[str]) -> None:
-    """Solve part 2"""
+    """Solves part 2"""
     all_game_set: List[GameSet] = [GameSet(line) for line in lines]
     current_game = GameColor(all_game_set, 12, 13, 14)
     print(f"The total sum of powers of all the games is : {current_game.power}")

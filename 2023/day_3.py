@@ -66,7 +66,7 @@ def part_1(lines: List[List[str]]):
 
 
 def part_2(lines: List[List[str]]):
-    """Solve part 2"""
+    """Solves part 2"""
     numbers, symbols = sort_number_symbols(lines, '*')
 
     gear_numbers = []
